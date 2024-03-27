@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T00:25:59.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="aO6sTtUINK_jgoA-fnV5" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T20:28:44.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="dOCb6TOsPQWpLdlj736F" version="24.1.0" type="github">
   <diagram id="a45cf8ec-cd66-6f27-3ac3-be6e809c9e4a" name="Page-1">
     <mxGraphModel dx="2831" dy="3476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -25,24 +25,32 @@
         <mxCell id="peSG-WHannf3--1k6Cx7-181" value="NUC" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="185" y="-820" width="130" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-182" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#BAC8D3;gradientColor=none;fontSize=18;fontColor=#F08705;opacity=40;fontStyle=0;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="-145" y="-830" width="835" height="520" as="geometry" />
-        </mxCell>
+        <UserObject label="" tooltip="IP : 192.168.1.36" id="peSG-WHannf3--1k6Cx7-182">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#BAC8D3;gradientColor=none;fontSize=18;fontColor=#F08705;opacity=40;fontStyle=0;strokeWidth=3;arcSize=19;" vertex="1" parent="1">
+            <mxGeometry x="-145" y="-830" width="835" height="520" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="peSG-WHannf3--1k6Cx7-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="peSG-WHannf3--1k6Cx7-185" target="peSG-WHannf3--1k6Cx7-276">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-185" value="&lt;div style=&quot;font-size: 25px;&quot;&gt;MQTT&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-710" width="100" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-186" value="&lt;div style=&quot;font-size: 25px;&quot;&gt;Node red&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="278" y="-710" width="100" height="110" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 25px;&quot;&gt;MQTT&lt;/div&gt;" tooltip="user id : gladys&#xa;mot de passe : Tyx7z7ghmUaDENWRfZaJ" id="peSG-WHannf3--1k6Cx7-185">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
+            <mxGeometry x="120" y="-710" width="100" height="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 25px;&quot;&gt;Node red&lt;/div&gt;" tooltip="192.168.1.36:1880&#xa;user : admin&#xa;mot de passe : Riquet0077&#xa;" id="peSG-WHannf3--1k6Cx7-186">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
+            <mxGeometry x="278" y="-710" width="100" height="110" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="peSG-WHannf3--1k6Cx7-187" value="&lt;div style=&quot;font-size: 25px;&quot;&gt;RFlink&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="777" y="-800" width="100" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-188" value="&lt;div style=&quot;font-size: 25px;&quot;&gt;Gladys&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="-710" width="100" height="140" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 25px;&quot;&gt;Gladys&lt;/div&gt;" tooltip="192.168.1.36:80&#xa;user ID : ed_maifra@yahoo.be&#xa;mot de passe : Riquet0077" id="peSG-WHannf3--1k6Cx7-188">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
+            <mxGeometry x="-40" y="-710" width="100" height="140" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="peSG-WHannf3--1k6Cx7-190" value="&lt;div style=&quot;font-size: 25px;&quot;&gt;Sonoff RF Bridge&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="-290" y="-1070" width="100" height="110" as="geometry" />
         </mxCell>
@@ -278,42 +286,25 @@
         <mxCell id="peSG-WHannf3--1k6Cx7-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="peSG-WHannf3--1k6Cx7-185" target="peSG-WHannf3--1k6Cx7-214">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-244" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="-790" as="sourcePoint" />
-            <mxPoint x="570" y="-840" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="peSG-WHannf3--1k6Cx7-317" value="&lt;div style=&quot;font-size: 25px;&quot;&gt;Zigbee&lt;/div&gt;&lt;div style=&quot;font-size: 25px;&quot;&gt;2&lt;/div&gt;&lt;div style=&quot;font-size: 25px;&quot;&gt;MQTT&lt;/div&gt;&lt;div style=&quot;font-size: 25px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="777" y="-670" width="100" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-245" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="-790" as="sourcePoint" />
-            <mxPoint x="570" y="-840" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="peSG-WHannf3--1k6Cx7-319" value="USB" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-612.0799999999999" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-248" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="-790" as="sourcePoint" />
-            <mxPoint x="570" y="-840" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="peSG-WHannf3--1k6Cx7-320" value="USB" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="677" y="-749.9999999999999" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-250" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="-790" as="sourcePoint" />
-            <mxPoint x="570" y="-840" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-251" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="-790" as="sourcePoint" />
-            <mxPoint x="570" y="-840" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="peSG-WHannf3--1k6Cx7-255" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="-790" as="sourcePoint" />
-            <mxPoint x="570" y="-840" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 25px;&quot;&gt;portainer&lt;/div&gt;" tooltip="192.168.1.36:9000&#xa;user : admin&#xa;mot de passe : Riquet0077&#xa;" id="peSG-WHannf3--1k6Cx7-321">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
+            <mxGeometry x="278" y="-570" width="100" height="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 25px;&quot;&gt;Home&lt;/div&gt;&lt;div style=&quot;font-size: 25px;&quot;&gt;assistant&lt;/div&gt;" tooltip="192.168.1.36:8123&#xa;user : &#xa;mot de passe : &#xa;" id="peSG-WHannf3--1k6Cx7-322">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=25;" vertex="1" parent="1">
+            <mxGeometry x="430" y="-570" width="100" height="110" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
